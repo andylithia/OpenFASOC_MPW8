@@ -4,6 +4,8 @@
 .ends 
 .subckt GWUCompliledMPW8
 .ends  
+.subckt pad_bond_CDNS_671661177921_1
+.ends
 .subckt surfaceTestArraySmall
 .ends
 .subckt twg_top_test
@@ -124,6 +126,7 @@ X3 GWUCompliledMPW8
 X4 FiveTransistors
 X5 twg_top_test
 X6 unitcell
+X7 pad_bond_CDNS_671661177921_1
 
 .ends
 
