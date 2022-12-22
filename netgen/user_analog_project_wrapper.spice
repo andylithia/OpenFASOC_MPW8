@@ -1,10 +1,14 @@
 .subckt padframe_esd_and_low_Vt
 .ends
-
-.subckt surfaceTestArray
-.ends
-
+.subckt FiveTransistors
+.ends 
 .subckt GWUCompliledMPW8
+.ends  
+.subckt surfaceTestArraySmall
+.ends
+.subckt twg_top_test
+.ends 
+.subckt unitcell
 .ends
 
 .subckt user_analog_project_wrapper gpio_analog[0] gpio_analog[10] gpio_analog[11]
@@ -115,8 +119,11 @@
 + wbs_stb_i wbs_we_i
 
 X1 padframe_esd_and_low_Vt
-X2 surfaceTestArray
+X2 surfaceTestArraySmall
 X3 GWUCompliledMPW8
+X4 FiveTransistors
+X5 twg_top_test
+X6 unitcell
 
 .ends
 
