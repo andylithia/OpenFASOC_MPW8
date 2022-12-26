@@ -13,6 +13,23 @@
 .subckt unitcell
 .ends
 
+
+.subckt cfgsr
+.ends
+.subckt dut_opa_top_2x
+.ends
+.subckt largecap
+.ends
+.subckt largecap1
+.ends
+.subckt logo
+.ends
+.subckt unitcell_2x
+.ends
+.subckt unitcell_simplify_2x
+.ends
+
+
 .subckt user_analog_project_wrapper gpio_analog[0] gpio_analog[10] gpio_analog[11]
 + gpio_analog[12] gpio_analog[13] gpio_analog[14] gpio_analog[15] gpio_analog[16]
 + gpio_analog[17] gpio_analog[1] gpio_analog[2] gpio_analog[3] gpio_analog[4] gpio_analog[5]
@@ -127,6 +144,14 @@ X4 FiveTransistors
 X5 twg_top_test
 X6 unitcell
 X7 pad_bond_CDNS_671661177921_1
+
+X8 cfgsr
+X9 dut_opa_top_2x
+X10 largecap
+X11 largecap1
+X12 logo
+X13 unitcell_2x
+X14 unitcell_simplify_2x
 
 .ends
 

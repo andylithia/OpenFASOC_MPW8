@@ -8,3 +8,22 @@
 |-----------------------------------------|
 
 Ahem! Testing? Testing? Everything seems to be in order...
+
+Todo:
+
+- Cell A: TW Amplifier + SET + Integrated Amplifier
+  - GUARD AMP.VIN AMP.VOP GND
+- Cell B: TW Amplifier + SET
+  - GUARD 
+
+- [x]  Configuration Register
+- [ ]  Digital lines wiring
+- [ ]  TWG top wiring
+- [x]  cell A top wiring
+- [ ]  cell B
+- [ ]  Opamp (400µA) DUTs
+- [ ]  Opamp (200µA, Gain Boosted) DUTs
+- [ ]  High Isolation 2-1 MUX DUTs
+- [ ]  Standalone SET DUTs
+- [ ]  
+
