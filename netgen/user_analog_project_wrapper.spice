@@ -10,25 +10,19 @@
 .ends
 .subckt twg_top_test
 .ends 
-.subckt unitcell
-.ends
-
-
-.subckt cfgsr
-.ends
 .subckt dut_opa_top_2x
-.ends
-.subckt largecap
 .ends
 .subckt largecap1
 .ends
 .subckt logo
 .ends
-.subckt unitcell_2x
+.subckt the_bound
 .ends
-.subckt unitcell_simplify_2x
+.subckt the_unbound
 .ends
 
+.subckt unitcell
+.ends
 
 .subckt user_analog_project_wrapper gpio_analog[0] gpio_analog[10] gpio_analog[11]
 + gpio_analog[12] gpio_analog[13] gpio_analog[14] gpio_analog[15] gpio_analog[16]
@@ -137,21 +131,16 @@
 + wbs_dat_o[7] wbs_dat_o[8] wbs_dat_o[9] wbs_sel_i[0] wbs_sel_i[1] wbs_sel_i[2] wbs_sel_i[3]
 + wbs_stb_i wbs_we_i
 
-X1 padframe_esd_and_low_Vt
-X2 surfaceTestArraySmall
-X3 GWUCompliledMPW8
-X4 FiveTransistors
-X5 twg_top_test
-X6 unitcell
-X7 pad_bond_CDNS_671661177921_1
-
-X8 cfgsr
-X9 dut_opa_top_2x
-X10 largecap
-X11 largecap1
-X12 logo
-X13 unitcell_2x
-X14 unitcell_simplify_2x
-
+X1 FiveTransistors
+X2 GWUCompliledMPW8
+X3 dut_opa_top_2x
+X4 largecap1
+X5 logo
+X6 pad_bond_CDNS_671661177921_1
+X7 padframe_esd_and_low_Vt
+X8 surfaceTestArraySmall
+X9 the_bound
+X10 the_unbound
+X11 unitcell
 .ends
 
