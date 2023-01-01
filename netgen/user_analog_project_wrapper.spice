@@ -14,7 +14,7 @@
 .ends
 .subckt tb_se_folded_cascode_np_ab
 .ends
-.subckt via_new
+.subckt via_new_0
 .ends
 .subckt via_new_1
 .ends
@@ -156,7 +156,7 @@ X3 harness_controller
 X4 sar_10b
 X5 tb__mux
 X6 tb_se_folded_cascode_np_ab
-X7 via_new
+X7 via_new_0
 X8 via_new_1
 X9 via_new_12
 X10 via_new_14
