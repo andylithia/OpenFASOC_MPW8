@@ -1,27 +1,46 @@
-.subckt padframe_esd_and_low_Vt
-.ends
-.subckt FiveTransistors
-.ends 
-.subckt GWUCompliledMPW8
-.ends  
-.subckt pad_bond_CDNS_671661177921_1
-.ends
-.subckt surfaceTestArraySmall
-.ends
-.subckt twg_top_test
-.ends 
-.subckt dut_opa_top_2x
-.ends
-.subckt largecap1
-.ends
-.subckt logo
-.ends
-.subckt the_bound
-.ends
-.subckt the_unbound
-.ends
+* NGSPICE file created from user_analog_project_wrapper.ext - technology: sky130A
 
-.subckt unitcell
+
+
+.subckt dac_entity
+.ends
+.subckt half_v
+.ends
+.subckt harness_controller
+.ends
+.subckt sar_10b
+.ends
+.subckt tb__mux
+.ends
+.subckt tb_se_folded_cascode_np_ab
+.ends
+.subckt via_new
+.ends
+.subckt via_new_1
+.ends
+.subckt via_new_12
+.ends
+.subckt via_new_14
+.ends
+.subckt via_new_16
+.ends
+.subckt via_new_17
+.ends
+.subckt via_new_19
+.ends
+.subckt via_new_2
+.ends
+.subckt via_new_4
+.ends
+.subckt via_new_6
+.ends
+.subckt via_new_7
+.ends
+.subckt via_new_8
+.ends
+.subckt voltage_div
+.ends
+.subckt voltage_div_1
 .ends
 
 .subckt user_analog_project_wrapper gpio_analog[0] gpio_analog[10] gpio_analog[11]
@@ -131,16 +150,27 @@
 + wbs_dat_o[7] wbs_dat_o[8] wbs_dat_o[9] wbs_sel_i[0] wbs_sel_i[1] wbs_sel_i[2] wbs_sel_i[3]
 + wbs_stb_i wbs_we_i
 
-X1 FiveTransistors
-X2 GWUCompliledMPW8
-X3 dut_opa_top_2x
-X4 largecap1
-X5 logo
-X6 pad_bond_CDNS_671661177921_1
-X7 padframe_esd_and_low_Vt
-X8 surfaceTestArraySmall
-X9 the_bound
-X10 the_unbound
-X11 unitcell
+X1 dac_entity
+X2 half_v
+X3 harness_controller
+X4 sar_10b
+X5 tb__mux
+X6 tb_se_folded_cascode_np_ab
+X7 via_new
+X8 via_new_1
+X9 via_new_12
+X10 via_new_14
+X11 via_new_16
+X12 via_new_17
+X13 via_new_19
+X14 via_new_2
+X15 via_new_4
+X16 via_new_6
+X17 via_new_7
+X18 via_new_8
+X19 voltage_div
+X20 voltage_div_1
+
+
 .ends
 
